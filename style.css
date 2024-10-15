@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
@@ -45,14 +45,15 @@ body {
 }
 
 .card > .row > .icon {
-    background: #223;
-    color: white;
+    background: white;
+    color: black;
     border-radius: 50%;
     width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
+    height: 50px;
 }
 
 .card > .row > .description {
@@ -60,8 +61,8 @@ body {
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
-    height: 80px;
-    width: 520px;
+    height: 105px;
+    width: 730px;
     opacity: 0;
     transform: translateY(30px);
     transition-delay: .3s;
@@ -82,7 +83,7 @@ input {
 }
 
 input:checked + label {
-    width: 600px;
+    width: 800px;
 }
 
 input:checked + label .description {
@@ -91,7 +92,7 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('12.png');
+    background-image: url('planting-trees-as-part-reforestation-process.jpg');
 }
 .card[for="c2"] {
     background-image: url('13.png');
