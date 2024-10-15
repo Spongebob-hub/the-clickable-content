@@ -48,11 +48,7 @@ body {
     width: var(--card-width);
     margin: 0 var(--card-spacing);
     border-radius: var(--card-border-radius);
-    @media (max-width: 768px) {
-        width: 60px;
-        margin: 0 5px;
-      }
-    }
+}
 
 
 .card > .row {
