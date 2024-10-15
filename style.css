@@ -80,7 +80,7 @@ body {
     transform: translateY(30px);
     transition-delay: .3s;
     transition: all .3s ease;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         width: 200px;
         font-size: 0.8rem; /* Adjust the font size as needed */
       }
