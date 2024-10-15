@@ -80,9 +80,11 @@ body {
     transform: translateY(30px);
     transition-delay: .3s;
     transition: all .3s ease;
-    @media (max-width: 730px) {
-        width: 80px; /* Adjust the width as needed for smaller screens */
+    @media (max-width: 768px) {
+        width: 200px;
+        font-size: 0.8rem; /* Adjust the font size as needed */
       }
+    
 }
 
 .description p {
