@@ -28,7 +28,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
         width: 100%; /* Make the container full width on smaller screens */
     }
 }
