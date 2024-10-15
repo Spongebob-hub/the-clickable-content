@@ -46,7 +46,7 @@ body {
     margin: 0 var(--card-spacing);
     border-radius: var(--card-border-radius);
     @media (max-width: 768px) {
-        width: 60px;
+        width: 40px;
         margin: 0 5px;
       }
     }
